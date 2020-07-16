@@ -1,5 +1,5 @@
-hash: 87224cbe021ea625798ac508c8963f49ff4ceb852d99da50db9d6b7fe95282f4
-updated: 2020-05-04T21:27:57.570766+08:00
+hash: fd7b7b64dbf495eabcf5a51ade84f61f88079fca44b8e177602c59b682f74bac
+updated: 2020-07-16T09:30:47.868452-04:00
 imports:
 - name: github.com/beorn7/perks
   version: 37c8de3658fcb183f997c4e13e8337516ab753e6
@@ -184,8 +184,10 @@ imports:
   - googleapis/api/annotations
   - googleapis/rpc/status
 - name: google.golang.org/grpc
-  version: 6eaf6f47437a6b4e2153a190160ef39a92c7eceb
+  version: 754ee590a4f386d0910d887f3b8776354042260b
   subpackages:
+  - attributes
+  - backoff
   - balancer
   - balancer/base
   - balancer/roundrobin
@@ -203,10 +205,16 @@ imports:
   - internal/backoff
   - internal/balancerload
   - internal/binarylog
+  - internal/buffer
   - internal/channelz
   - internal/envconfig
+  - internal/grpclog
   - internal/grpcrand
   - internal/grpcsync
+  - internal/grpcutil
+  - internal/resolver/dns
+  - internal/resolver/passthrough
+  - internal/status
   - internal/syscall
   - internal/transport
   - keepalive
