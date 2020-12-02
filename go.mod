@@ -29,6 +29,5 @@ require (
 	go.uber.org/zap v1.16.0
 	golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e
 	google.golang.org/grpc v1.33.2
-	google.golang.org/grpc/examples v0.0.0-20201130222003-4a0125ac5808 // indirect
 	gopkg.in/cheggaaa/pb.v1 v1.0.28
 )
